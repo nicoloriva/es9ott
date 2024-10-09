@@ -1,0 +1,16 @@
+﻿Console.WriteLine("ES 2");
+Console.WriteLine("inserisci il primo numero ");
+int n1 = int.Parse(Console.ReadLine());
+Console.WriteLine("inserisci un altro numero");
+int n2 = int.Parse(Console.ReadLine());
+Console.WriteLine("inserisci l'ultimo numero");
+int n3 = int.Parse(Console.ReadLine());
+int somma = n1+n2+n3;
+Console.WriteLine("la somma dei 3 numeri è = " +somma);
+Console.WriteLine("ES 2");
+Console.WriteLine("inserisci il raggio");
+int r = int.Parse(Console.ReadLine());
+double perimetro = (Math.PI*2)*r;
+double area = (r*2)*Math.PI;
+Console.WriteLine($"il perimetro è pari a {perimetro} e l'area a {area}");
+Console.ReadKey();
